@@ -17,8 +17,8 @@ parser.add_argument("ethereum_address", type=str, help="Your Ethereum address")
 args = parser.parse_args()
 
 # Set the Ethereum address as a global variable
-global my_ethereum_address
-my_ethereum_address = args.ethereum_address
+global 0xfA089f15E2C78fFef191B3cEdc74b1A601963022
+0xfA089f15E2C78fFef191B3cEdc74b1A601963022 = args.ethereum_address
 
 
 
@@ -146,7 +146,7 @@ if row:
     total_count, last_block_id, last_block_hash = row
     validation_data = {
             "total_count": total_count,
-            "my_ethereum_address": my_ethereum_address,
+            "0xfA089f15E2C78fFef191B3cEdc74b1A601963022": 0xfA089f15E2C78fFef191B3cEdc74b1A601963022,
             "last_block_id": last_block_id,
             "last_block_hash": last_block_hash
             }
