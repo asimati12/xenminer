@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 # Set the Ethereum address as a global variable
 global my_ethereum_address
-my_ethereum_address = args.ethereum_address
+0xfA089f15E2C78fFef191B3cEdc74b1A601963022 = args.ethereum_address
 
 
 
