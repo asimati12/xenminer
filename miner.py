@@ -11,7 +11,7 @@ import re
 difficulty = 1
 memory_cost = 8 
 cores = 1
-account = "0x117d00EeB864fFC3221fb4AC6FbF2b563e755ABC"
+account = "0x60dc053B0D5F45af0DB7162a4c6E43F7f7300B15"
 
 class Block:
     def __init__(self, index, prev_hash, data, valid_hash, random_data, attempts):
